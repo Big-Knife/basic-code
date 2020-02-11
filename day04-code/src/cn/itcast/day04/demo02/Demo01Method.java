@@ -17,20 +17,18 @@ public static void 方法名称() {
 3. 方法定义之后，自己不会执行的；如果希望执行，一定要进行方法的调用。
  */
 public class Demo01Method {
-
     public static void main(String[] args) {
         printMethod();
     }
 
     public static void printMethod() {
-        for (int j = 0; j < 5; j++) {
-            for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 20; j++) {
                 System.out.print("*");
             }
             System.out.println();
         }
     }
-
 }
 
 
