@@ -7,48 +7,41 @@ package cn.itcast.day04.demo04;
 并在main方法中进行测试。
  */
 public class Demo02MethodOverloadSame {
-
     public static void main(String[] args) {
         byte a = 10;
         byte b = 20;
         System.out.println(isSame(a, b));
-
-        System.out.println(isSame((short) 20, (short) 20));
-
-        System.out.println(isSame(11, 12));
-
-        System.out.println(isSame(10L, 10L));
+        System.out.println(isSame((short) 10,(short) 20));
     }
 
     public static boolean isSame(byte a, byte b) {
-        System.out.println("两个byte参数的方法执行！");
+        System.out.println("byte");
         boolean same;
-        if (a == b) {
+        if(a ==  b) {
             same = true;
         } else {
             same = false;
-        }
-        return same;
+        } return same;
     }
 
     public static boolean isSame(short a, short b) {
-        System.out.println("两个short参数的方法执行！");
+        System.out.println("short");
         boolean same = a == b ? true : false;
         return same;
     }
 
     public static boolean isSame(int a, int b) {
-        System.out.println("两个int参数的方法执行！");
+        System.out.println("int");
         return a == b;
     }
 
     public static boolean isSame(long a, long b) {
-        System.out.println("两个long参数的方法执行！");
-        if (a == b) {
-            return true;
+        System.out.println("long");
+        boolean same;
+        if(a ==  b) {
+            same = true;
         } else {
-            return false;
-        }
+            same = false;
+        } return same;
     }
-
 }

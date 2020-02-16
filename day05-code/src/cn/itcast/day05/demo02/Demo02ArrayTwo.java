@@ -19,6 +19,7 @@ public class Demo02ArrayTwo {
         System.out.println("==============");
 
         int[] arrayB = new int[3];
+
         System.out.println(arrayB); // 地址值
         System.out.println(arrayB[0]); // 0
         System.out.println(arrayB[1]); // 0
