@@ -8,14 +8,19 @@ this.成员变量名
 “通过谁调用的方法，谁就是this。”
  */
 public class Person {
+    String name;
 
-    String name; // 我自己的名字
-
-    // 参数name是对方的名字
-    // 成员变量name是自己的名字
-    public void sayHello(String name) {
-        System.out.println(name + "，你好。我是" + this.name);
+    public void sayHello(String name){
+        System.out.println(name + ",你好，我是" + this.name);
         System.out.println(this);
     }
-
 }
+//
+//    String name; // 我自己的名字
+//
+//    // 参数name是对方的名字
+//    // 成员变量name是自己的名字
+//    public void sayHello(String name) {
+//        System.out.println(name + "，你好。我是" + this.name);
+//        System.out.println(this);
+//    }

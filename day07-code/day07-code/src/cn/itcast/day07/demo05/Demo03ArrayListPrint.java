@@ -11,8 +11,31 @@ System.out.println(list);       [10, 20, 30]
 printArrayList(list);           {10@20@30}
  */
 public class Demo03ArrayListPrint {
-
     public static void main(String[] args) {
+        ArrayList<String> list = new ArrayList<>();
+        list.add("张三丰");
+        list.add("宋远桥");
+        list.add("张无忌");
+        list.add("张翠山");
+
+        System.out.println(list);
+
+        printArrayList(list);
+    }
+public static void printArrayList(ArrayList<String> list) {
+    System.out.print("{");
+    for (int i = 0; i < list.size(); i++) {
+        String name = list.get(i);
+        if (i == list.size() -1 ) {
+            System.out.print(name + "}");
+        } else {
+            System.out.print(name + "@");
+        }
+    }
+}
+
+}
+/*    public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<>();
         list.add("张三丰");
         list.add("宋远桥");
@@ -23,12 +46,12 @@ public class Demo03ArrayListPrint {
         printArrayList(list);
     }
 
-    /*
+    *//*
     定义方法的三要素
     返回值类型：只是进行打印而已，没有运算，没有结果；所以用void
     方法名称：printArrayList
     参数列表：ArrayList
-     */
+     *//*
     public static void printArrayList(ArrayList<String> list) {
         // {10@20@30}
         System.out.print("{");
@@ -40,6 +63,4 @@ public class Demo03ArrayListPrint {
                 System.out.print(name + "@");
             }
         }
-    }
-
-}
+    }*/

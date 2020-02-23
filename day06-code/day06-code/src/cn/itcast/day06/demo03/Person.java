@@ -24,7 +24,7 @@ public class Person {
 
     // 这个成员方法，专门用于向age设置数据
     public void setAge(int num) {
-        if (num < 100 && num >= 9) { // 如果是合理情况
+        if (num < 100 && num >= 0) { // 如果是合理情况
             age = num;
         } else {
             System.out.println("数据不合理！");

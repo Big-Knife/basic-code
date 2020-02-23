@@ -12,8 +12,8 @@ package cn.itcast.day06.demo05;
  */
 public class Student {
 
-    private String name; // 姓名
-    private int age; // 年龄
+    private String name;
+    private int age;
 
     public Student() {
     }

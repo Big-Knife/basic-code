@@ -1,6 +1,6 @@
 package cn.itcast.day07.demo01;
 
-import java.util.Scanner; // 1. 导包
+import java.util.Scanner;// 1.导包
 
 /*
 Scanner类的功能：可以实现键盘输入数据，到程序当中。
@@ -27,7 +27,6 @@ public class Demo01Scanner {
         // 2. 创建
         // 备注：System.in代表从键盘进行输入
         Scanner sc = new Scanner(System.in);
-
         // 3. 获取键盘输入的int数字
         int num = sc.nextInt();
         System.out.println("输入的int数字是：" + num);

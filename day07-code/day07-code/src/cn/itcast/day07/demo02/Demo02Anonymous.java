@@ -17,7 +17,7 @@ public class Demo02Anonymous {
 //        Scanner sc = new Scanner(System.in);
 //        methodParam(sc);
 
-        // 使用匿名对象来进行传参
+//         使用匿名对象来进行传参
 //        methodParam(new Scanner(System.in));
 
         Scanner sc = methodReturn();

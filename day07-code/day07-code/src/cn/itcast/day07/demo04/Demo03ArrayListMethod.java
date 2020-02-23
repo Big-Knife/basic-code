@@ -35,7 +35,6 @@ public class Demo03ArrayListMethod {
         // 从集合中获取元素：get。索引值从0开始
         String name = list.get(2);
         System.out.println("第2号索引位置：" + name); // 赵又廷
-
         // 从集合中删除元素：remove。索引值从0开始。
         String whoRemoved = list.remove(3);
         System.out.println("被删除的人是：" + whoRemoved); // 李小璐

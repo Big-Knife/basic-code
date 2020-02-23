@@ -5,15 +5,15 @@ package cn.itcast.day06.demo03;
  */
 public class Student {
 
-    private String name; // 姓名
-    private int age; // 年龄
-    private boolean male; // 是不是爷们儿
+    private String name;
+    private int age;
+    private boolean male;
 
-    public void setMale(boolean b) {
+    public void setMale(boolean b){
         male = b;
     }
 
-    public boolean isMale() {
+    public boolean isMale(){
         return male;
     }
 
@@ -32,4 +32,5 @@ public class Student {
     public int getAge() {
         return age;
     }
+
 }

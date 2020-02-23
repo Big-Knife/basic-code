@@ -1,5 +1,6 @@
 package cn.itcast.day07.demo01;
 
+
 import java.util.Scanner;
 
 /*

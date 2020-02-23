@@ -2,7 +2,7 @@ package cn.itcast.day06.demo02;
 
 public class Demo05PhoneReturn {
 
-    public static void main(String[] args) {
+  /*  public static void main(String[] args) {
         Phone two = getPhone();
         System.out.println(two.brand); // 苹果
         System.out.println(two.price); // 8388.0
@@ -15,6 +15,19 @@ public class Demo05PhoneReturn {
         one.price = 8388.0;
         one.color = "玫瑰金";
         return one;
+    }*/
+
+    public static void main(String[] args) {
+      Phone two = getPhone();
+
     }
 
+    public static Phone getPhone() {
+        Phone one = new Phone();
+        one.brand = "Apple";
+        one.color = " Rose Gold";
+        one.price = 9888.0;
+        return one;
+    }
 }
+
