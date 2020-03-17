@@ -1,5 +1,7 @@
 package cn.itcast.day10.demo05;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class Zi extends Fu {
 
     int num = 20;

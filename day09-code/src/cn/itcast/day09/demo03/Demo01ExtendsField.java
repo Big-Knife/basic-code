@@ -12,5 +12,4 @@ public class Demo01ExtendsField {
 
         zi.method();
     }
-
 }
