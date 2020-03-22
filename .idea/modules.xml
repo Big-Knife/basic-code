@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Java课件/05-常用API第二部分/12.【Object类、常用API】-笔记/code/01_API/01_API.iml" filepath="$PROJECT_DIR$/../Java课件/05-常用API第二部分/12.【Object类、常用API】-笔记/code/01_API/01_API.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Java课件/06-集合/13.【Collection、泛型】-笔记/code/02_CollectionAndReflect/02_CollectionAndReflect.iml" filepath="$PROJECT_DIR$/../Java课件/06-集合/13.【Collection、泛型】-笔记/code/02_CollectionAndReflect/02_CollectionAndReflect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Java课件/06-集合/14.【List、Set】-笔记/code/03_ListAndSet/03_ListAndSet.iml" filepath="$PROJECT_DIR$/../Java课件/06-集合/14.【List、Set】-笔记/code/03_ListAndSet/03_ListAndSet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Java课件/06-集合/15.【Map】-笔记/code/04_Map/04_Map.iml" filepath="$PROJECT_DIR$/../Java课件/06-集合/15.【Map】-笔记/code/04_Map/04_Map.iml" />
       <module fileurl="file://$PROJECT_DIR$/day04-code/day04-code.iml" filepath="$PROJECT_DIR$/day04-code/day04-code.iml" />
       <module fileurl="file://$PROJECT_DIR$/day05-code/day05-code.iml" filepath="$PROJECT_DIR$/day05-code/day05-code.iml" />
       <module fileurl="file://$PROJECT_DIR$/day06-code/day06-code.iml" filepath="$PROJECT_DIR$/day06-code/day06-code.iml" />

@@ -13,10 +13,20 @@ public class DemoMain {
         computer.useDevice(usbMouse);
 
         // 创建一个USB键盘
-        Keyboard keyboard = new Keyboard();
-
+//        Keyboard keyboard = new Keyboard(); // 没有使用多态写法
+        // 方法参数是USB类型，传递进去的是实现类对象
+        computer.useDevice(new Keyboard());
+//        computer.useDevice(new Keyboard());
 
         computer.powerOff();
+        method(10.0);
+        method(20);
+        int a = 30;
+        method(a);
+    }
+
+    public static void method(double num){
+        System.out.println(num);
     }
 }
 
