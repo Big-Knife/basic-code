@@ -43,7 +43,7 @@ public abstract class RedPacketFrame extends JFrame {
     /**
      * 窗体大小 WIDTH:400 HEIGHT:600
      */
-    private static final int FRAME_WIDTH = 416; // 静态全局窗口大小
+    private static final int FRAME_WIDTH = 400; // 静态全局窗口大小
     private static final int FRAME_HEIGHT = 650;
     private static JLayeredPane layeredPane = null;
 
